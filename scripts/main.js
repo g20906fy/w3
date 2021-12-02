@@ -20,7 +20,7 @@ let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
-  let myName = prompt('Please enter your name.');
+  let myName = prompt('名前を入力してください');
   // prompt は、組み込みの関数。prompt (pop-up) Windowを表示して、ユーザを入力させる。
   
   if(!myName) {
